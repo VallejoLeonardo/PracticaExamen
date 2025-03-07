@@ -3,11 +3,8 @@ import { View, Text, Image, StyleSheet } from 'react-native';
 import Header from '../components/Header';
 import { globalStyles } from '../styles/globalStyles';
 
-// En un proyecto real, importaríamos la imagen desde assets
-// Para este ejemplo, usamos una URL de placeholder
+
 const profileImageSource = require('../../assets/profile.png');
-// Si prefieres usar una imagen de internet:
-// const profileImageSource = { uri: 'https://via.placeholder.com/150' };
 
 const PerfilScreen = () => {
   const userData = {
